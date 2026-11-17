@@ -1,4 +1,4 @@
-# Employee Layoffs Since COVID-19: Industry Impact and Interest Rate Analysis
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1e7f271f-276c-41e0-b211-fb5641c2f580" /># Employee Layoffs Since COVID-19: Industry Impact and Interest Rate Analysis
 
 **Author:** S Rohith  
 **Repository:** [Employee-Layoffs-Analysis](https://github.com)
@@ -31,7 +31,7 @@ The analysis focuses first on identifying trends in layoffs by industry and comp
 - **Statistical Hypothesis Testing (SciPy):**
   - **Two-Sample Welch's t-test:** Comparing low-rate months (< 2.5%) against high-rate months (≥ 2.5%) confirms that average monthly U.S. layoffs nearly tripled from **3,704** to **11,094** (**t = 3.758, p = 0.0003**).
   - **Pearson Correlation Test:** Shows a statistically significant moderate positive correlation between Federal Funds rates and monthly layoffs (**r = 0.309, t = 2.851, p = 0.0056**), confirming that borrowing costs significantly drive layoffs alongside non-rate shocks like COVID-19 and AI restructuring.
-- **Geographic Concentration:** Among the top 5 affected countries, the **United States accounted for 76.4%** of laid-off employees, followed by **India (9.9%)**, **Germany (5.2%)**, the **United Kingdom (4.5%)**, and **Sweden (4.0%)**.
+- - **Geographic Concentration:** Among the top 5 affected countries, the **United States accounted for 81.9%** of laid-off employees, followed by **India (8.4%)**, **Germany (4.0%)**, the **United Kingdom (3.0%)**, and the **Netherlands (2.7%)**.
 - **Hardest-Hit U.S. Industries:** **Hardware** (100,762), **Other** (85,729, including Oracle), **Retail** (83,937), and **Consumer** (81,409) recorded the highest cumulative U.S. layoffs.
 - **Top Affected U.S. Companies:** **Amazon** (~60k), **Intel** (~43k), **Meta** (~36k), and **Microsoft** (~35k) led total reductions, with **Oracle** ranking 6th (~22k).
 
