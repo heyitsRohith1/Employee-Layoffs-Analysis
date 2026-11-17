@@ -1,5 +1,3 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1e7f271f-276c-41e0-b211-fb5641c2f580" /># Employee Layoffs Since COVID-19: Industry Impact and Interest Rate Analysis
-
 **Author:** S Rohith  
 **Repository:** [Employee-Layoffs-Analysis](https://github.com)
 
