@@ -4,7 +4,14 @@
 **Repository:** [Employee-Layoffs-Analysis](https://github.com)
 
 ## 📌 Problem Statement
-The purpose of this project is to analyze the impact of employee layoffs globally since the onset of COVID-19 (2020–2026) and investigate Oracle's major layoff of 21,000 employees in June 2026. Using two real-world datasets—global corporate layoffs and U.S. Federal Reserve interest rates (`FEDFUNDS`)—this analysis identifies the hardest-hit industries, companies, and countries before testing the statistical relationship between U.S. interest rate fluctuations and layoff waves over time.
+The purpose of this project is to analyze the impact of employee layoffs globally since the onset of COVID-19. The project aims to identify which industries experienced the highest number of layoffs, which countries were most affected, and to explore whether there is a correlation between U.S. federal interest rates and layoffs in companies. 
+
+We have two datasets:
+- **Global employee layoffs** across different industries and companies.
+- **U.S. federal interest rates (`FEDFUNDS`)** over the same time period.
+
+The analysis focuses first on identifying trends in layoffs by industry and company, and then moves to investigate potential relationships between federal interest rates and layoffs.
+
 
 ## 🎯 Objectives
 - Identify the industries and companies most affected by employee layoffs since COVID-19.
