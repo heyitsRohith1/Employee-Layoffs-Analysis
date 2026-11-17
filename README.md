@@ -1,3 +1,5 @@
+# **Employee Layoffs Since COVID-19: Industry Impact & Federal Reserve Interest Rate Analysis (2020–2026)**
+
 **Author:** S Rohith  
 **Repository:** [Employee-Layoffs-Analysis](https://github.com)
 
