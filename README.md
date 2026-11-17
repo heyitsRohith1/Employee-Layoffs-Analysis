@@ -3,7 +3,7 @@
 **Author:** S Rohith  
 **Repository:** [Employee-Layoffs-Analysis](https://github.com)
 
-## 📌 Problem Statement
+## Problem Statement
 The purpose of this project is to analyze the impact of employee layoffs globally since the onset of COVID-19. The project aims to identify which industries experienced the highest number of layoffs, which countries were most affected, and to explore whether there is a correlation between U.S. federal interest rates and layoffs in companies. 
 
 We have two datasets:
@@ -13,12 +13,12 @@ We have two datasets:
 The analysis focuses first on identifying trends in layoffs by industry and company, and then moves to investigate potential relationships between federal interest rates and layoffs.
 
 
-## 🎯 Objectives
+## Objectives
 - Identify the industries and companies most affected by employee layoffs since COVID-19.
 - Determine which countries experienced the most significant workforce reductions.
 - Quantify and statistically test the relationship between U.S. Federal Reserve interest rates and U.S. company layoffs from 2020 to 2026.
 
-## 🛠️ Challenges & Solutions
+## Challenges & Solutions
 - **Missing Values & Mixed Date Formats:** The raw layoffs dataset contained missing categorical entries and inconsistent date strings (`MM/DD/YYYY` and `MM-DD-YYYY`).  
   * *Solution:* Audited null values with `missingno`, imputed missing categorical fields with `'Unknown'`, and standardized all dates to monthly periods (`YYYY-MM-01`).
 - **Mismatch in Data Granularity:** Layoff events were recorded on specific days, whereas Federal Reserve interest rates were reported monthly.  
@@ -26,7 +26,7 @@ The analysis focuses first on identifying trends in layoffs by industry and comp
 - **Global vs. National Scope:** Comparing global layoffs against U.S.-specific Federal Reserve interest rates risked skewing economic insights, and 8 non-U.S. cities (e.g., `Tel Aviv, Non-U.S.`, `New Delhi`, `Brisbane`) were mislabeled under the United States.  
   * *Solution:* Filtered the macroeconomic and statistical analysis strictly to U.S. companies and removed the 8 mislabeled non-U.S. city entries.
 
-## 🔍 Key Results & Statistical Findings
+## Key Results & Statistical Findings
 - **Oracle's June 2026 Layoff:** Oracle laid off **21,000 employees (13% of its workforce)** in June 2026 while U.S. Federal Reserve interest rates stood at **3.63%**—well above the 0.05% COVID-era low—driven by elevated borrowing costs and strategic restructuring toward AI infrastructure.
 - **Statistical Hypothesis Testing (SciPy):**
   - **Two-Sample Welch's t-test:** Comparing low-rate months (< 2.5%) against high-rate months (≥ 2.5%) confirms that average monthly U.S. layoffs nearly tripled from **3,704** to **11,094** (**t = 3.758, p = 0.0003**).
@@ -35,7 +35,7 @@ The analysis focuses first on identifying trends in layoffs by industry and comp
 - **Hardest-Hit U.S. Industries:** **Hardware** (100,762), **Other** (85,729, including Oracle), **Retail** (83,937), and **Consumer** (81,409) recorded the highest cumulative U.S. layoffs.
 - **Top Affected U.S. Companies:** **Amazon** (~60k), **Intel** (~43k), **Meta** (~36k), and **Microsoft** (~35k) led total reductions, with **Oracle** ranking 6th (~22k).
 
-## 💻 Tools & Technologies Used
+## Tools & Technologies Used
 - **Data Cleaning & Manipulation:** Python, Pandas, NumPy, Missingno
 - **Statistical Analysis:** SciPy (`scipy.stats`)
 - **Data Visualization:** Matplotlib, Seaborn, Plotly
