@@ -41,11 +41,11 @@ The analysis focuses first on identifying trends in layoffs by industry and comp
 - **Data Visualization:** Matplotlib, Seaborn, Plotly
 - **Environment:** Jupyter Notebook (VS Code)
 
-## 📂 Repository Contents
+## Repository Contents
 - `Employee Layoff Analysis since covid - 19.ipynb` — Complete Jupyter Notebook with data cleaning, EDA, visualizations, and statistical hypothesis testing.
 - `layoffs.csv` — Global layoffs dataset (2020–2026).
 - `FEDFUNDS.csv` — Historical U.S. Federal Reserve interest rate dataset.
 
-- ## 🏁 Conclusion
+- ## Conclusion
 This project provides a comprehensive analysis of employee layoffs since COVID-19 across different industries and countries, while statistically evaluating the relationship between U.S. Federal Reserve interest rates and U.S. layoffs. The findings demonstrate that elevated borrowing costs significantly coincided with higher monthly layoffs—nearly tripling during high-rate periods (≥ 2.5%)—and explain how macroeconomic pressures alongside AI restructuring contributed to major workforce reductions such as Oracle's 21,000-employee layoff in June 2026. Together, the visualizations and statistical tests offer actionable insights into how monetary policy and sector shifts shape corporate employment decisions.
 
