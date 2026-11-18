@@ -19,7 +19,7 @@ The analysis focuses first on identifying trends in layoffs by industry and comp
 - Quantify and statistically test the relationship between U.S. Federal Reserve interest rates and U.S. company layoffs from 2020 to 2026.
 
 ## Challenges & Solutions
-  - **Pearson Correlation Test:** The results show a statistically significant moderate positive correlation between Federal Funds rates and monthly layoffs (**r  = 0.309, t = 2.851, p = 0.0056**), suggesting that higher interest rates were associated with increased layoffs. However, correlation does not establish causation.
+   - **Pearson Correlation Test:** The results show a statistically significant moderate positive correlation between Federal Funds rates and monthly layoffs (**r = 0.309, t = 2.851, p = 0.0056**), suggesting that higher interest rates were associated with increased layoffs. However, correlation does not establish causation.
 - **Mismatch in Data Granularity:** Layoff events were recorded on specific days, whereas Federal Reserve interest rates were reported monthly.  
   * *Solution:* Aggregated layoff dates to the month level, merged both datasets via a left join, and forward-filled the latest available interest rate values.
 - **Global vs. National Scope:** Comparing global layoffs against U.S.-specific Federal Reserve interest rates risked skewing economic insights, and 8 non-U.S. cities (e.g., `Tel Aviv, Non-U.S.`, `New Delhi`, `Brisbane`) were mislabeled under the United States.  
