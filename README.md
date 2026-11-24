@@ -43,7 +43,7 @@ The analysis focuses first on identifying trends in layoffs by industry and comp
 - **Environment:** Jupyter Notebook (VS Code)
 
 ## Repository Contents
-- `Employee Layoff Analysis since covid - 19.ipynb` — Complete Jupyter Notebook with data cleaning, EDA, visualizations, and statistical hypothesis testing.
+- `Employee_Layoff_Analysis_Since_COVID19.ipynb` — Complete Jupyter Notebook with data cleaning, EDA, visualizations, and statistical hypothesis testing.
 - `layoffs.csv` — Global layoffs dataset (2020–2026).
 - `FEDFUNDS.csv` — Historical U.S. Federal Reserve interest rate dataset.
 
